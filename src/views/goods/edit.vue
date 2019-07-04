@@ -95,7 +95,7 @@
         </el-form-item>
 
         <el-form-item label="商品详细介绍">
-          <editor :init="editorInit" v-model="goods.detail"/>
+          <editor :init="editorInit" v-model="goods.detail" style="height: 500px;"/>
         </el-form-item>
       </el-form>
     </el-card>
